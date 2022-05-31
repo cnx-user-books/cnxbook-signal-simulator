@@ -1,0 +1,72 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Sistema de Información - Signal Simulator</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63840</md:content-id>
+  <md:title>Sistema de Información - Signal Simulator</md:title>
+  <md:abstract>Este módulo contiene los archivos para la instalación y uso del sistema de información Signal Simulator, para la simulación de Señales y Sistemas Continuos</md:abstract>
+  <md:uuid>c5a99747-5277-4f1c-93bb-85ffa6d99002</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm466101776">
+      <title>Sistema de Información - Signal Simulator</title><section id="import-auto-idm238860128">
+        <title>Señales Continuas</title>
+        <para id="import-auto-idm259096176">
+          <emphasis effect="bold">Se entiende como una señal, cualquier onda eléctrica que se use para transmitir información. (Newton, 2001, p: 622)  </emphasis>
+        </para>
+        <para id="import-auto-idm513209232">
+          <emphasis effect="bold">Una señal presenta diferentes características y, generalmente se representa como funciones que dependen de una o más variables siendo la más usual el tiempo. Una señal describe una magnitud física (voltaje, corriente, etc.) que varía en función a la variable de la cual depende. (Adrián de Pérez, 2013)</emphasis>
+        </para>
+        <para id="import-auto-idm266590880">
+          <emphasis effect="bold">Así como una señal puede ser continua, existen otros tipos de clasificaciones de señales según su naturaleza y comportamiento de acuerdo a diferentes aspectos. Cabe destacar que una señal puede pertenecer a varias clasificaciones a la vez, es decir, no necesariamente la clasificación es excluyente. En la Tabla 1 se puede apreciar las diferentes clasificaciones de señales.</emphasis>
+        </para>
+        <figure id="import-auto-idm244308304"><media id="import-auto-idm512903312" alt="">
+            <image mime-type="image/jpg" src="../../media/Imagen 23.jpg" height="245" width="251"/>
+          </media>
+        <caption>Clasificación de las señales (Salazar &amp; Montero. 2010)</caption></figure></section>
+      <section id="import-auto-idm467716240">
+        <title>Sistemas Continuos</title>
+        <para id="import-auto-idm279121392">
+          <emphasis effect="bold">Un sistema físico, usualmente, cuenta con la capacidad de aceptar entradas como tensión, corriente, presión, desplazamiento, fuerza, etc., y como consecuencia producir una salida, es decir, una respuesta a la entrada dada. Los sistemas pueden ser continuos o discretos, para este caso, se hará enfoque en los sistemas continuos, estos son aquellos en los que las señales de entrada y de salida son de tiempo continuo. (Soliman &amp; Srinath. 1999: p. 43) </emphasis>
+        </para>
+        <para id="import-auto-idm439810560">
+          <emphasis effect="bold">Un sistema puede clasificarse como lineal o no lineal, variante en el tiempo o invariante con el tiempo, con memoria o sin memoria, causal o no causal, estable o inestable y determinista o no determinista. Usualmente, en la mayoría de los casos, se trabaja con los sistemas lineales, invariantes y deterministas. Sin embargo, el </emphasis>
+        </para>
+      </section>
+      <section id="import-auto-idm437285520">
+        <title>Signal Simulator</title>
+        <para id="import-auto-idm549583440">
+          <emphasis effect="bold"> Este simulador se encuentra dividido en tres módulos: Generador de Señales y Operaciones, Sistemas y Filtrado de Señales (Figura 1). La siguiente figura muestra la vista principal. El mismo presenta los contenidos de Señales y Sistemas Continuos, usted podrá generar señales, realizar operaciones con ellas, simular el paso de las mismas por un sistema y filtrarlas.</emphasis>
+        </para>
+        <figure id="import-auto-idm483684144"><media id="import-auto-idm560820912" alt="">
+            <image mime-type="image/png" src="../../media/Image1.png" height="300" width="575"/>
+          </media>
+        <caption>Vista Principal</caption></figure><para id="import-auto-idm243731520">
+          <emphasis effect="bold">En el primer módulo podrá generar señales determinísticas, aleatorias, presentar señales reales como electrocardiogramas, electromiogramas, electroencefalogramas y audios .wav previamente generados. A su vez, realizar operaciones entre señales que tengan la misma frecuencia de muestreo. (Figura 2)</emphasis>
+        </para>
+        <figure id="import-auto-idm288216992"><media id="import-auto-idm487729264" alt="">
+            <image mime-type="image/png" src="../../media/Image2.png" height="305" width="575"/>
+          </media>
+        <caption>Vista del módulo 1</caption></figure><para id="import-auto-idm534055536">
+          <emphasis effect="bold">Una vez generada al menos una señal, podrá hacer uso de los siguientes módulos (Figura 2 y 3) En el archivo de descarga, encontrará los documentos pertinentes al simulador, como manuales de instalación y de uso.</emphasis>
+        </para>
+        <figure id="import-auto-idm451859600"><media id="import-auto-idm269096496" alt="">
+            <image mime-type="image/png" src="../../media/Image3.png" height="289" width="575"/>
+          </media>
+        <caption>Vista del módulo 2</caption></figure><figure id="import-auto-idm242696864"><media id="import-auto-idm264584864" alt="">
+            <image mime-type="image/png" src="../../media/Image4.png" height="332" width="575"/>
+          </media>
+        <caption>Vista del módulo 3</caption></figure></section>
+      <section id="import-auto-idm480901056">
+        <title>Descarga de Signal Simulator</title><para id="import-auto-idm269109728"><emphasis effect="bold">El sistema fue desarrollado en Octave 3.8.2 y en Java, para su funcionamiento es necesario tener instalado Octave 3.8.2 con los siguientes paquetes: Control, Signal, Communication y SpecFun. Asimismo, deberá asegurarse que Octave 3.8.2 esté agregado en las variables de ambiente de su equipo. Signal Simulator fue desarrollado en Windows 7, no se garantiza el funcionamiento en otros sistemas operativos. En esta secci+on encontrará el link de descarga que contiene todos los archivos relevantes al sistema de información como: .exe de Octave 3.8.2, manual de instalación de Octave, manual de uso de Signal Simulator.
+
+En la secciones siguientes tiene a su disposición los links de descarga de Octave 3.8.2 y Java, así como el link del video tutorial de uso del sistema de información.</emphasis>
+
+        </para><para id="eip-779"><link url="https://www.dropbox.com/sh/ts378oz272214tp/AACKNPobLGHG2iAM6dVwG4_ea?dl=0"> Descarga Signal Simulator </link></para></section>
+      <section id="import-auto-idm244281184">
+        <title>Links de descarga de Octave y Java</title>
+        <para id="import-auto-idm704835024"><link url="https://ftp.gnu.org/gnu/octave/"> Descarga Octave 3.8.2 </link></para><para id="eip-4"><link url="https://www.java.com/es/download/"> Descarga Java </link>
+</para></section><section id="eip-41"><title>Video Tutorial de Uso</title><para id="eip-468"><link url="https://youtu.be/Tq2vks62-9c"> Video Tutorial </link>
+</para></section></section>
+  </content>
+</document>
