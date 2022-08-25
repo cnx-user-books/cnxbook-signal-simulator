@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="es">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="es" authors="Mariangeles Trujillo">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col12138</md:content-id>
     <md:title>Signal Simulator</md:title>
     <md:language>es</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>e26da272-ca06-44ea-908e-37d78aa7fa35</md:uuid>
-<md:slug>signal-simulator</md:slug>
-</metadata>
+    <md:slug>signal-simulator</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m63840"/>
   </col:content>
